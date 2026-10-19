@@ -1,0 +1,51 @@
+name: Merge VPN Configs
+
+on:
+  schedule:
+    - cron: '0 * * * *'   # каждый час
+  workflow_dispatch:       # ручной запуск
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download and merge configs
+        run: |
+          curl -sL "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt" -o vless.txt
+          curl -sL "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS_WEAK_DPI_RUS.txt" -o ss_weak.txt
+          curl -sL "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS%2BAll_RUS.txt" -o ss_all.txt
+
+          # Собираем всё во временный файл, убирая комментарии из источников
+          {
+            grep -v '^#' vless.txt || true
+            grep -v '^#' ss_weak.txt || true
+            grep -v '^#' ss_all.txt || true
+          } > raw_lines.txt
+
+          # Аккуратно убираем точные дубликаты: сохраняем порядок первого появления
+          awk '!seen[$0]++' raw_lines.txt > unique_lines.txt
+
+          # Формируем итоговый файл с заголовком
+          {
+            echo "# Combined VPN Configs"
+            echo "# Updated: $(date -u)"
+            echo ""
+            cat unique_lines.txt
+          } > merged.txt
+
+          # Чистим временные файлы
+          rm -f vless.txt ss_weak.txt ss_all.txt raw_lines.txt unique_lines.txt
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add merged.txt
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update merged configs (deduplicated)"
+          git push
