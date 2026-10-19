@@ -1,5 +1,5 @@
 # Combined VPN Configs
-# Updated: Mon Oct 19 19:31:15 UTC 2026
+# Updated: Mon Oct 19 20:29:11 UTC 2026
 
 
 vless://074690f9-cb30-44f5-84e5-f3ce8fc6cf29@app-ss-64.ecom-ai-search.com:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=assets-ss-64.ecom-ai-search.com&pbk=xXMV-UbVMpP75hZoXS_QSaj_DK1O58mrPIrreudQ71o&sid=294cd0660fde9027&allowInsecure=1&fp=firefox#%F0%9F%87%A8%F0%9F%87%BF%20Czechia%2C%20Prague%20%7C%20%5BBL%5D
