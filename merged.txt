@@ -1,5 +1,5 @@
 # Combined VPN Configs
-# Updated: Tue Oct 20 08:31:28 UTC 2026
+# Updated: Tue Oct 20 09:30:43 UTC 2026
 
 
 vless://d65fb384-5029-4edf-bdc7-0f5960600e3d@153.76.190.31:2083?security=tls&sni=speedtestmark.com&alpn=http%2F1.1&type=ws&path=%2Fvless-ws&fp=firefox#%F0%9F%87%A8%F0%9F%87%BF%20Czechia%2C%20Prague%20%7C%20%5BBL%5D
