@@ -1,5 +1,5 @@
 # Combined VPN Configs
-# Updated: Tue Oct 20 18:31:39 UTC 2026
+# Updated: Tue Oct 20 19:32:20 UTC 2026
 
 
 vless://b24ad12f-f6ce-4f0b-a264-d58a76104026@151.123.187.198:443?encryption=none&flow=xtls-rprx-vision&pbk=trN5x0amt2YuVzF2vZnK294YBAuh_zl5QkZjPyWz-TI&security=reality&sid=8718c58d3d51db59&sni=al2.magazinnarubeva.ru&type=tcp&fp=android#%F0%9F%87%A6%F0%9F%87%B1%20Albania%2C%20Tirana%20%7C%20%5BBL%5D
