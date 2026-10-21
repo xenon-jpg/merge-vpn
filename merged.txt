@@ -1,5 +1,5 @@
 # Combined VPN Configs
-# Updated: Tue Oct 20 23:24:14 UTC 2026
+# Updated: Wed Oct 21 00:34:53 UTC 2026
 
 
 vless://982edbef-3c5b-486f-baf3-813a1f8ad660@216.23.83.153:443?security=reality&flow=xtls-rprx-vision&pbk=1ICcfKdmQI8EpyAD4xsyG8tYMQ-D2En-vUzD-GGM6Qc&sid=6c96&sni=www.oracle.com&type=tcp&headerType=none&host=www.oracle.com&path=%2F&fp=android#%F0%9F%87%AF%F0%9F%87%B5%20Japan%2C%20Shibuya%20City%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
