@@ -1,5 +1,5 @@
 # Combined VPN Configs
-# Updated: Thu Oct 22 20:27:36 UTC 2026
+# Updated: Thu Oct 22 21:28:08 UTC 2026
 
 
 vless://6e05822a-e9da-4135-a9db-71aa07a944af@8.6.112.0:443?encryption=none&security=tls&sni=fi1.merky.one&alpn=http%2F1.1&type=ws&host=fi1.merky.one&path=%2Fmky-ws-4f19c8a7&headers=%7B%0A++%22Host%22%3A+%22fi1.merky.one%22%0A%7D&fp=chrome#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
