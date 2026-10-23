@@ -1,5 +1,5 @@
 # Combined VPN Configs
-# Updated: Fri Oct 23 16:32:44 UTC 2026
+# Updated: Fri Oct 23 17:28:19 UTC 2026
 
 
 vless://9a0e84f8-4b58-477f-99da-5fac5a2e58e8@36a466g.fi1.h1clayd.click:443?security=reality&sni=36a466g.fi1.h1clayd.click&pbk=pAgrBKJCmuSJHIzYkEJTqsOBOVBK_DMtEqFPo-PaTkg&sid=b3c9d0c6bdd114a6&type=grpc&serviceName=0adb9638509b&packetEncoding=xudp&encryption=none&fp=chrome#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
