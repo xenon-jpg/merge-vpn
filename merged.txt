@@ -1,5 +1,5 @@
 # Combined VPN Configs
-# Updated: Thu Oct 29 03:42:26 UTC 2026
+# Updated: Thu Oct 29 04:43:17 UTC 2026
 
 
 vless://ce334334-3ab8-45a2-8af7-f151f413e402@94.183.175.164:5018?security=reality&sni=www.aparat.com&type=xhttp&host=hostname&path=%2Fpath&fp=chrome&pbk=KVrKzcMWnFc8-s2Cre3PUS3ojMvugd1BxS9on54vBW0&sid=9d57eae0ee3fd6cb#%F0%9F%87%A6%F0%9F%87%B2%20Armenia%2C%20Yerevan%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
