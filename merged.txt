@@ -1,5 +1,5 @@
 # Combined VPN Configs
-# Updated: Thu Oct 29 22:36:48 UTC 2026
+# Updated: Thu Oct 29 23:31:49 UTC 2026
 
 
 vless://05c66efe-4f1e-4df9-99e6-2b1b624fa7ae@82.223.196.199:443?encryption=none&security=tls&sni=sg.jinggai.online&fp=chrome&alpn=http%2F1.1&type=ws&path=%2Fconnect%2F01&host=sg.jinggai.online#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D
