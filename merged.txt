@@ -1,5 +1,5 @@
 # Combined VPN Configs
-# Updated: Sat Nov  7 07:55:38 UTC 2026
+# Updated: Sat Nov  7 08:47:27 UTC 2026
 
 
 vless://91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a@172.67.165.32:8443?host=n04.jinggai.online&path=%2Fnvl-n04-ws%2Fe0577fe8fd7c8823&security=tls&sni=n04.jinggai.online&type=ws&fp=firefox#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D
